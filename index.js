@@ -31,4 +31,10 @@ const fightting = (tiger, wolf) => {
 const tiger = new Tiger();
 const wolf = new Wolf();
 
+const moment = require('moment')
+const date = moment().format("MMM Do YY")
+
+console.log(date)
+
 fightting(tiger, wolf);
+
