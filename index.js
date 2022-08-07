@@ -24,4 +24,11 @@ const fightting = (tiger, wolf) => {
     wolf.howl();
     return;
   }
+
+  console.log(`Tiger and Wolf have same stringht`)
 }
+
+const tiger = new Tiger();
+const wolf = new Wolf();
+
+fightting(tiger, wolf);
